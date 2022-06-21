@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Kids Health</string>
+
+    <string name="TITLE">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="Underweight">18.5</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_text">string</string>
+    <string name="action_dump_subs">List Active Subscriptions</string>
+    <string name="action_cancel_subs">Cancel subscriptions</string>
+    <string name="auth_failure_message">Your authentication to Google Fit failed! Try again?</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Hello There! \nWelcome to StepTracker</string>
+    <string name="welcome_second">Weekly Record</string>
+    <string name="popup_title">Filter your history!</string>
+    <string name="popup_filter">Filter By</string>
+    <string name="popup_order">Order By</string>
+    <string name="auth_failed">Your Google Fit Authentication Failed!</string>
+    <string name="auth_success">Authentication Success!</string>
+    <string name="daily_counter"> %1$s</string>
+    <string name="daily_counter_dummy">Hey There! Your took\n 0 \nsteps today!</string>
+    <string name="login_button_lable">Login with Google Fit</string>
+    <string name="auth_failure_label">Something went wrong.</string>
+</resources>

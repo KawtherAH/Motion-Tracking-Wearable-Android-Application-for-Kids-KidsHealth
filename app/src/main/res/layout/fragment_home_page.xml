@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HomePageFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:layout_gravity="center"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="25sp"
+            android:paddingEnd="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Kids Health"
+                android:textAlignment="center"
+                android:textColor="@color/MainBlue"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/TodayBtn"
+            android:layout_width="350dp"
+            android:layout_height="105dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_shape"
+            android:drawableLeft="@drawable/today"
+            android:fontFamily="@font/baloo"
+            android:text="Today"
+            android:textAllCaps="false"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/RecordsBtn"
+            android:layout_width="350dp"
+            android:layout_height="105dp"
+            android:drawableLeft="@drawable/calendar"
+            android:background="@drawable/btn_shape"
+            android:layout_marginBottom="10dp"
+            android:text="Records"
+            android:fontFamily="@font/baloo"
+            android:textAllCaps="false"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ProgressBtn"
+            android:layout_width="350dp"
+            android:layout_height="105dp"
+            android:drawableLeft="@drawable/progress"
+            android:background="@drawable/btn_shape"
+            android:text="Progress"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/baloo"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/toplayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="@dimen/_150sdp">
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+Welcome to Samsung Health SDK for Android!
+
+Samsung Health SDK for Android enables your Android app to connect with Samsung Health and sync health data.
+
+Refer to the following description: 
+
+Health Data
+
+  - It enables your app to read or write health data into the Samsung Health's health data store in the phone. 
+  - Health data sync with Samsung Health through the SDK's Data API is mandatory.
+  - The library, tool, and related documents are included in the "SamsungHealthSDK/Data" folder. 
+  
+** To work properly with Samsung Health, please apply for a partner program at http://developer.samsung.com/health/android. ** 

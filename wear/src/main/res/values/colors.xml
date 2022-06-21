@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="LightPink">#EDA1AB</color>
+
+    <color name="LightGray">#CBBCBC</color>
+    <color name="DarkGray">#918B8B</color>
+
+
+    <color name="MainBlue">#496FA0</color>
+    <color name="LightBlue">#95C8F1</color>
+    <color name="DarkBlue">#084371</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="grad1">#7438E8</color>
+    <color name="grad2">#456EDE</color>
+    <color name="grad3">#07C4D3</color>
+
+    <color name="textColorDark">#333</color>
+    <color name="textColorLight">#FFF</color>
+
+    <color name="Light">#E7E5B6</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/loginlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:context=".LoginActivity">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/welcomeTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/andika_new_basic_italic"
+                android:outlineSpotShadowColor="@color/white"
+                android:shadowColor="@color/LightPink"
+                android:text="Welcome with\nKids Health"
+                android:textAlignment="center"
+                android:textColor="@color/MainBlue"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/EditUserEmail"
+                android:layout_width="326dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/login_edit_text"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/white"
+                android:textColor="@color/MainBlue"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/EditPassword"
+                android:layout_width="326dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/login_edit_text"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white"
+                android:textColor="@color/MainBlue"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/LoginBtn"
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_shape"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/RegisterBtn"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/new_user_btn"
+                android:paddingVertical="16sp"
+                android:text="New user? Register now"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/ForgotPassword"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/new_user_btn"
+                android:paddingVertical="16sp"
+                android:text="Forgot Password"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/ProgressBarLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleLarge"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

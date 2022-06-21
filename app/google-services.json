@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1022101326001",
+    "firebase_url": "https://kidshealthv3-default-rtdb.firebaseio.com",
+    "project_id": "kidshealthv3",
+    "storage_bucket": "kidshealthv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022101326001:android:02c0b32eea6fb69b8d3a90",
+        "android_client_info": {
+          "package_name": "com.example.kidshealthv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022101326001-o607eah04drk2jves0te8k1m35j7fp27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHDfcp_KSsgChmhZtQy0RZ701B7Di4qn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022101326001-o607eah04drk2jves0te8k1m35j7fp27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

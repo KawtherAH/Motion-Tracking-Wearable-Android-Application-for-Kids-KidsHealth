@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Today"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".TodayFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:padding="5dp"
+        android:shadowColor="@color/white"
+        android:shadowDx="5"
+        android:shadowDy="0.5"
+        android:shadowRadius="5"
+        android:text="Today"
+        android:textColor="@color/MainBlue"
+        android:textSize="44sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="272dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624">
+
+        <TextView
+            android:id="@+id/stp"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:ems="10"
+            android:hint="500/6000"
+            android:text="steps"
+            android:textAlignment="center"
+            android:textColor="#B254CC"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/calo"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:ems="10"
+            android:hint="345 "
+            android:inputType="textPersonName"
+            android:text="cal"
+            android:textAlignment="center"
+            android:textColor="#CA4949"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/dis"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:ems="10"
+            android:hint="2 "
+            android:inputType="textPersonName"
+            android:text="km"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/dur"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:text="min"
+
+            android:textAlignment="center"
+            android:textColor="#48C3D3"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="113dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:src="@drawable/walk" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:src="@drawable/fire" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="123dp"
+            android:layout_height="93dp"
+            android:src="@drawable/img" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="114dp"
+            android:layout_height="90dp"
+            android:src="@drawable/clock" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
